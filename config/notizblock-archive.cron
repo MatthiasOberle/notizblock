@@ -1,0 +1,2 @@
+# Papierkorb nach 30 Tagen ins verborgene Archiv verschieben; keine Datenloeschung.
+15 3 * * * notizblock /usr/bin/php /opt/notizblock/maintenance.php
