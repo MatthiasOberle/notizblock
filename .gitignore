@@ -1,0 +1,23 @@
+# Runtime data and credentials must never be committed
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.hash
+password.new
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+/uploads/
+/data/
+/backups/
+/tmp/
+/work/
+.DS_Store
+__pycache__/
+*.pyc
+*.tar.gz
+*.zip
